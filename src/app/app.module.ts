@@ -13,6 +13,7 @@ import { AlertComponentComponent } from './alert-component/alert-component.compo
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [AlertComponentComponent]
 })
 export class AppModule { }
