@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  content = null;
+
+  constructor () {
+    setTimeout(function () {
+      this.content = "<app-alert-component [message]='Rendered Dynamically'></app-alert-component>"
+    }, 1000);
+  }
 }
